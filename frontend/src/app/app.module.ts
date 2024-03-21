@@ -56,6 +56,7 @@ import { BrandingComponent } from './views/branding/branding.component';
 import { StandardRegistryCardComponent } from './components/standard-registry-card/standard-registry-card.component';
 import { SuggestionsConfigurationComponent } from './views/suggestions-configuration/suggestions-configuration.component';
 import { NotificationComponent } from './components/notification/notification.component';
+import { TokenDialogComponent } from './components/token-dialog/token-dialog.component';
 //Modules
 import { MaterialModule } from './modules/common/material.module';
 import { PolicyEngineModule } from './modules/policy-engine/policy-engine.module';
@@ -154,7 +155,8 @@ import { OnlyForDemoDirective } from './directives/onlyfordemo.directive';
         TermsConditionsComponent,
         AccountTypeSelectorDialogComponent,
         ForgotPasswordDialogComponent,
-        OnlyForDemoDirective
+        OnlyForDemoDirective,
+        TokenDialogComponent,
     ],
     imports: [
         BrowserModule,
